@@ -25,7 +25,7 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     
     public var descriptionText: String? {
         didSet {
-
+            
         }
     }
     
@@ -50,7 +50,7 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     private lazy var pillStack: UIStackView = {
         let element = UIStackView()
         element.translatesAutoresizingMaskIntoConstraints = false
-        element.alignment = .leading
+        element.alignment = .center
         element.axis = .vertical
         element.distribution = .equalCentering
         element.spacing = 8
@@ -61,6 +61,7 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     
     private lazy var typePill: PillView = {
         let element = PillView(style: .world)
+        element.translatesAutoresizingMaskIntoConstraints = false
         return element
     }()
     
@@ -69,7 +70,8 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         element.translatesAutoresizingMaskIntoConstraints = false
         element.textColor = .label
         element.textAlignment = .left
-        element.font = .preferredFont(forTextStyle: .headline)
+        element.font = .preferredFont(forTextStyle: .caption1)
+        element.textColor = .secondaryLabel
         element.numberOfLines = 2
         element.text = "Level - 50"
         return element
@@ -121,8 +123,6 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     // MARK: - Constructors
     init() {
         super.init(frame: .zero)
-        
-        typePill.render()
     }
     
     @available(*, unavailable)
@@ -152,12 +152,16 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
             stack.topAnchor.constraint(equalTo: topAnchor),
             stack.bottomAnchor.constraint(equalTo: bottomAnchor),
             stack.leadingAnchor.constraint(equalTo: leadingAnchor),
-            stack.trailingAnchor.constraint(equalTo: trailingAnchor)
+            stack.trailingAnchor.constraint(equalTo: trailingAnchor),
+            
+            typePill.heightAnchor.constraint(equalToConstant: 24),
+            typePill.widthAnchor.constraint(equalToConstant: 61)
         ])
     }
     
     func additionalProperties() {
         backgroundColor = .systemBackground
+        typePill.render()
     }
 }
 
