@@ -52,7 +52,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         let element = UIStackView()
         element.translatesAutoresizingMaskIntoConstraints = false
         element.alignment = .top
-        element.axis = .horizontal
+        element.axis = .vertical
         element.distribution = .fill
         element.spacing = 4
         return element
@@ -62,7 +62,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         let element = UIStackView()
         element.translatesAutoresizingMaskIntoConstraints = false
         element.alignment = .center
-        element.axis = .vertical
+        element.axis = .horizontal
         element.distribution = .fill
         element.spacing = 12
         element.isLayoutMarginsRelativeArrangement = true
@@ -88,7 +88,6 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .vertical
         element.distribution = .fill
         element.spacing = 12
-        element.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         return element
     }()
     
@@ -238,9 +237,9 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
             pinView.heightAnchor.constraint(equalToConstant: 22),
             pinView.widthAnchor.constraint(equalTo: pinView.heightAnchor),
             
-            lineView.widthAnchor.constraint(equalToConstant: 4),
-            lineView.heightAnchor.constraint(equalTo:
-                                                dungeonsStack.heightAnchor, constant: -42),
+            lineView.heightAnchor.constraint(equalToConstant: 4),
+            lineView.widthAnchor.constraint(equalTo: dungeonsStack.widthAnchor,
+                                            constant: pinView.bounds.height - 12),
             
             bookmarkButton.heightAnchor.constraint(equalToConstant: 44)
         ])
