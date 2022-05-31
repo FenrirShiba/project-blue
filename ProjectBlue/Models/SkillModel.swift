@@ -23,14 +23,14 @@ class SkillModel {
                   title: String,
                   rank: Int,
                   level: Int,
-                  acquisiion: [MonsterModel]? = nil,
+                  acquisition: [MonsterModel]? = nil,
                   whalaqee: WhalaqueeTotem? = nil,
                   isBookmarked: Bool = false) {
         self.id = id
         self.title = title
         self.rank = rank
         self.level = level
-        self.acquisition = acquisiion
+        self.acquisition = acquisition
         self.whalaqee = whalaqee
         self.isBookmarked = isBookmarked
     }

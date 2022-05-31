@@ -9,26 +9,48 @@ import Foundation
 
 class MonsterModel {
     typealias LevelRange = (min: Int, max: Int)
-    typealias MapPosition = (x: Float, y: Float)
     
     let id: Int
     let level: LevelRange
-    let positon: MapPosition?
     let name: String
-    let rank: String?
+    let type: MonsterType
     let location: LocationModel
     
     required init(id: Int,
                   level: LevelRange,
-                  positon: MapPosition? = nil,
                   name: String,
-                  rank: String? = nil,
+                  type: MonsterType,
                   location: LocationModel) {
         self.id = id
         self.level = level
-        self.positon = positon
         self.name = name
-        self.rank = rank
+        self.type = type
         self.location = location
     }
+}
+
+enum MonsterType {
+    typealias MapPosition = (x: Float, y: Float)
+
+    case normal(position: MapPosition)
+    case boss
+    case fate(position: MapPosition)
+    case rank(level: RankLevel)
+    
+    func description() -> String {
+        switch self {
+        case .normal(let position):
+            return "Normal: x\(position.x) y\(position.y)"
+        case .boss:
+            return "Boss"
+        case .fate(let position):
+            return "Fate: x\(position.x) y\(position.y)"
+        case .rank(let level):
+            return "Rank \(level.rawValue)"
+        }
+    }
+}
+
+enum RankLevel: String {
+    case A, B, S
 }

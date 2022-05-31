@@ -19,13 +19,14 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     // MARK: - Properties
     public var text: String? {
         didSet {
+           
 
         }
     }
     
     public var descriptionText: String? {
         didSet {
-            
+          
         }
     }
     
@@ -60,7 +61,7 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     }()
     
     private lazy var typePill: PillView = {
-        let element = PillView(style: .world)
+        let element = PillView(style: .hunt)
         element.translatesAutoresizingMaskIntoConstraints = false
         return element
     }()
@@ -95,7 +96,6 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         element.textAlignment = .left
         element.font = .preferredFont(forTextStyle: .headline)
         element.numberOfLines = 2
-        element.text = "ADS"
         return element
     }()
     
@@ -106,7 +106,6 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         element.textAlignment = .left
         element.font = .preferredFont(forTextStyle: .callout)
         element.numberOfLines = 2
-        element.text = "Boss"
         return element
     }()
     
@@ -117,12 +116,21 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         element.textAlignment = .left
         element.font = .preferredFont(forTextStyle: .footnote)
         element.numberOfLines = 2
-        element.text = "The Binding Coil of Bahamut - Turn 1"
         return element
     }()
+    
     // MARK: - Constructors
-    init() {
+    init(name: String,
+         type: String,
+         location: String,
+         pillLocation: PillType,
+         pillLevel: String) {
         super.init(frame: .zero)
+        
+        nameMonsterLabel.text = name
+        typeMonsterLabel.text = type
+        locationMonsterLabel.text = location
+        typePill.style = pillLocation
     }
     
     @available(*, unavailable)
@@ -169,7 +177,11 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
 
 struct SkillAcquireCardContainerView: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
-        let view = SkillAcquireCardView()
+        let view = SkillAcquireCardView(name: "ADS",
+                                        type: "Boss",
+                                        location: "The Binding Coil of Bahamut - Turn 1",
+                                        pillLocation: .trial,
+                                        pillLevel: ":Level - 50")
         view.render()
         return view
     }

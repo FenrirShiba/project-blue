@@ -11,8 +11,58 @@ import SwiftUI
 
 import UIKit
 
+// MARK: - Auxiliar types
+enum PillType: String {
+    case world = "World"
+    case hunt = "Hunt"
+    case maskedCarnivale = "Masked"
+    case dungeon = "Dungeon"
+    case raid = "Raid"
+    case trial = "Trial"
+    
+    func color() -> UIColor {
+        switch self {
+        case .world:
+            return .systemIndigo
+        case .hunt:
+            return .systemYellow
+        case .maskedCarnivale:
+            return .systemBlue
+        case .dungeon:
+            return .systemPurple
+        case .raid:
+            return .systemPink
+        case .trial:
+            return .systemGreen
+        }
+    }
+    
+    static func fromLocationType(_ type: LocationType) -> PillType {
+        switch type {
+        case .dungeon:
+            return .dungeon
+        case .maskedCarnivale:
+            return .maskedCarnivale
+        case .openWorld:
+            return .world
+        case .raid:
+            return .raid
+        case .trial:
+            return .trial
+        case .hunt:
+            return .hunt
+        }
+    }
+}
+
 final class PillView: UIView, ViewCodeConfiguration {
 
+    public var style: PillType? {
+        didSet {
+            changeStyle(to: style ?? .world)
+        }
+    }
+    
     private lazy var card: UIView = {
        let element = UIView()
         element.translatesAutoresizingMaskIntoConstraints = false
@@ -27,37 +77,14 @@ final class PillView: UIView, ViewCodeConfiguration {
         element.text = "DG"
         return element
     }()
-    
-    // MARK: - Auxiliar types
-    enum PillType: String {
-        case world = "World"
-        case hunt = "Hunt"
-        case MaskedCarnivale = "Masked"
-        case dungeon = "Dungeon"
-        case raid = "Raid"
-        case trial = "Trial"
-        
-        func color() -> UIColor {
-            switch self {
-            case .world:
-                return .systemIndigo
-            case .hunt:
-                return .systemYellow
-            case .MaskedCarnivale:
-                return .systemBlue
-            case .dungeon:
-                return .systemPurple
-            case .raid:
-                return .systemPink
-            case .trial:
-                return .systemGreen
-            }
-        }
-    }
 
     init(style: PillType) {
         super.init(frame: .zero)
         
+        changeStyle(to: style)
+    }
+    
+    func changeStyle(to style: PillType) {
         card.backgroundColor = style.color()
         title.text = style.rawValue
     }

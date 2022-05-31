@@ -35,6 +35,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .horizontal
         element.distribution = .fill
         element.spacing = 16
+        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
         return element
     }()
     
@@ -45,6 +46,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .vertical
         element.distribution = .fill
         element.spacing = 16
+        element.setContentCompressionResistancePriority(.defaultHigh, for: .vertical)
         return element
     }()
     
@@ -55,6 +57,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .vertical
         element.distribution = .fill
         element.spacing = 4
+        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
         return element
     }()
     
@@ -88,6 +91,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .vertical
         element.distribution = .fill
         element.spacing = 12
+        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
         return element
     }()
     
@@ -115,41 +119,6 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         return element
     }()
     
-    private lazy var dungeonView: IconTileView = {
-        let element = IconTileView(iconName: "house.fill",
-                                   value: "Dungeon or Raid",
-                                   preferedFont: .headline)
-        return element
-    }()
-    
-    private lazy var dungeonItem: IconTileView = {
-        let element = IconTileView(description: "Lvl. 50",
-                                   value: "Gobmachine G-VI from Brayflox's Longstop (Hard)",
-                                   preferedFont: .headline)
-        return element
-    }()
-    
-    private lazy var dungeonItem2: IconTileView = {
-        let element = IconTileView(description: "Lvl. 50",
-                                   value: "Einhander from The Keeper of the Lake",
-                                   preferedFont: .headline)
-        return element
-    }()
-    
-    private lazy var dungeonItem3: IconTileView = {
-        let element = IconTileView(description: "Lvl. 50",
-                                   value: "Magitek Gunship from The Keeper of the Lake",
-                                   preferedFont: .headline)
-        return element
-    }()
-    
-    private lazy var dungeonItem4: IconTileView = {
-        let element = IconTileView(description: "Lvl. 70",
-                                   value: "Omega from Alphascape V3.0",
-                                   preferedFont: .body)
-        return element
-    }()
-    
     private lazy var skillImageView: UIImageView = {
         let element = UIImageView()
         element.translatesAutoresizingMaskIntoConstraints = false
@@ -166,6 +135,16 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.contentMode = .left
         element.tintColor = .systemGray
         element.setContentHuggingPriority(.defaultHigh, for: .horizontal)
+        return element
+    }()
+    
+    private lazy var spacerStack: UIStackView = {
+        let element = UIStackView()
+        element.translatesAutoresizingMaskIntoConstraints = false
+        element.alignment = .fill
+        element.axis = .vertical
+        element.distribution = .fill
+        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
         return element
     }()
     
@@ -212,17 +191,14 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         informationStack.addArrangedSubview(numberView)
         informationStack.addArrangedSubview(rankView)
         informationStack.addArrangedSubview(levelView)
-        informationStack.addArrangedSubview(dungeonView)
         headerStack.addArrangedSubview(skillImageView)
         
         acquireStack.addArrangedSubview(pinStack)
         pinStack.addArrangedSubview(pinView)
         pinStack.addArrangedSubview(lineView)
+        
         acquireStack.addArrangedSubview(dungeonsStack)
-        dungeonsStack.addArrangedSubview(dungeonItem)
-        dungeonsStack.addArrangedSubview(dungeonItem2)
-        dungeonsStack.addArrangedSubview(dungeonItem3)
-        dungeonsStack.addArrangedSubview(dungeonItem4)
+        acquireStack.addArrangedSubview(spacerStack)
         verticalStack.addArrangedSubview(bookmarkButton)
         
     }
@@ -234,12 +210,11 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
             verticalStack.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16),
             verticalStack.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16),
             
-            pinView.heightAnchor.constraint(equalToConstant: 22),
-            pinView.widthAnchor.constraint(equalTo: pinView.heightAnchor),
+            pinStack.heightAnchor.constraint(lessThanOrEqualToConstant: 30),
             
             lineView.heightAnchor.constraint(equalToConstant: 4),
-            lineView.widthAnchor.constraint(equalTo: dungeonsStack.widthAnchor,
-                                            constant: pinView.bounds.height - 12),
+            lineView.widthAnchor.constraint(equalTo: view.widthAnchor,
+                                            constant: -72),
             
             bookmarkButton.heightAnchor.constraint(equalToConstant: 44)
         ])
@@ -252,11 +227,34 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         numberView.render()
         rankView.render()
         levelView.render()
-        dungeonView.render()
-        dungeonItem.render()
-        dungeonItem2.render()
-        dungeonItem3.render()
-        dungeonItem4.render()
+    }
+    
+    func makeCard(name: String,
+                  type: String,
+                  location: String,
+                  pillLocation: PillType,
+                  pillLevel: String) {
+        let card = SkillAcquireCardView(name: name,
+                                        type: type,
+                                        location: location,
+                                        pillLocation: pillLocation,
+                                        pillLevel: pillLevel)
+        card.heightAnchor.constraint(lessThanOrEqualToConstant: 100).isActive = true
+        
+        dungeonsStack.addArrangedSubview(card)
+        card.render()
+        dungeonsStack.layoutSubviews()
+    }
+    
+    func createCards(with list: [MonsterModel]) {
+        for monster in list {
+            makeCard(name: monster.name,
+                     type: monster.type.description(),
+                     location: monster.location.name,
+                     pillLocation:
+                        PillType.fromLocationType(monster.location.type),
+                     pillLevel: "Level \(monster.level.min)-\(monster.level.max)")
+        }
     }
     
     // MARK: - Data flow methods
@@ -267,32 +265,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         rankView.text = ConvertionHelper.numberToStars(model.rank)
         levelView.text = String(model.level)
         
-        dungeonItem2.isHidden = true
-        dungeonItem3.isHidden = true
-        dungeonItem4.isHidden = true
-        if let acquisitionMethods = model.acquisition {
-            acquisitionMethods.indices.forEach { index in
-                switch index {
-                case 0:
-                    dungeonItem.text = acquisitionMethods[index].location.name
-                    dungeonItem.descriptionText = acquisitionMethods[index].name
-                case 1:
-                    dungeonItem2.text = acquisitionMethods[index].location.name
-                    dungeonItem2.descriptionText = acquisitionMethods[index].name
-                    dungeonItem2.isHidden = false
-                case 2:
-                    dungeonItem3.text = acquisitionMethods[index].location.name
-                    dungeonItem3.descriptionText = acquisitionMethods[index].name
-                    dungeonItem3.isHidden = false
-                case 3:
-                    dungeonItem4.text = acquisitionMethods[index].location.name
-                    dungeonItem4.descriptionText = acquisitionMethods[index].name
-                    dungeonItem4.isHidden = false
-                default:
-                    break
-                }
-            }
-        }
+        createCards(with: model.acquisition ?? [])
     }
     
 }
@@ -302,7 +275,23 @@ struct SkillSheetControllerContainerView: UIViewControllerRepresentable {
     typealias UIViewControllerType = UIViewController
     
     func makeUIViewController(context: Context) -> UIViewControllerType {
-        let navigationController = UINavigationController(rootViewController: SkillSheetController.instantiate())
+        let vc = SkillSheetController.instantiate()
+        let navigationController = UINavigationController(rootViewController: vc)
+        vc.configure(for:
+            SkillModel(id: 2,
+                       title: "Flame Thrower",
+                       rank: 4,
+                       level: 50,
+                       acquisition: [
+                        MonsterModel(id: 1,
+                                     level: (min: 50, max: 70),
+                                     name: "Gobmachine G-VI",
+                                     type: .boss,
+                                     location: LocationModel(id: 1,
+                                                             name: "Brayflox's Longstop (Hard)",
+                                                             level: 50,
+                                                             type: .dungeon))
+                       ]))
         return navigationController
     }
     

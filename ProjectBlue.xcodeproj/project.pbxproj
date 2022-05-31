@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E45D0A6A282C3BDE00A8FF9A /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A69282C3BDE00A8FF9A /* CheckListView.swift */; };
 		E45D0A6D282C450600A8FF9A /* ConvertionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A6C282C450600A8FF9A /* ConvertionHelper.swift */; };
 		E45D0A6F282DC8A200A8FF9A /* MonsterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A6E282DC8A200A8FF9A /* MonsterModel.swift */; };
 		E45D0A71282DCD6800A8FF9A /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A70282DCD6800A8FF9A /* LocationModel.swift */; };
@@ -47,7 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E45D0A69282C3BDE00A8FF9A /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
 		E45D0A6C282C450600A8FF9A /* ConvertionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertionHelper.swift; sourceTree = "<group>"; };
 		E45D0A6E282DC8A200A8FF9A /* MonsterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterModel.swift; sourceTree = "<group>"; };
 		E45D0A70282DCD6800A8FF9A /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 				E4A518D827F25048005CA680 /* MainViewController.swift */,
 				E4A5190D27F77D8B005CA680 /* SkillTableViewCell.swift */,
 				E4742959281B4E35006A9D66 /* SkillSheetController.swift */,
-				E45D0A69282C3BDE00A8FF9A /* CheckListView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -343,7 +340,6 @@
 				E4B5C9FB2821A50900E7FE67 /* ViewCodeConfiguration.swift in Sources */,
 				E4A518D927F25048005CA680 /* MainViewController.swift in Sources */,
 				E4A518D527F25048005CA680 /* AppDelegate.swift in Sources */,
-				E45D0A6A282C3BDE00A8FF9A /* CheckListView.swift in Sources */,
 				E4B4C39E27FE296F0002563A /* AppCoordinator.swift in Sources */,
 				E474295A281B4E35006A9D66 /* SkillSheetController.swift in Sources */,
 				E45D0A6F282DC8A200A8FF9A /* MonsterModel.swift in Sources */,
