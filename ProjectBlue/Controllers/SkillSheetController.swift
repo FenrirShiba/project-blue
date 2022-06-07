@@ -57,7 +57,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .vertical
         element.distribution = .fill
         element.spacing = 4
-        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
+        element.setContentHuggingPriority(.required, for: .vertical)
         return element
     }()
     
@@ -84,6 +84,14 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         return element
     }()
     
+    private lazy var scrollView: UIScrollView = {
+        let element = UIScrollView()
+        element.translatesAutoresizingMaskIntoConstraints = false
+        
+        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
+        return element
+    }()
+    
     private lazy var dungeonsStack: UIStackView = {
         let element = UIStackView()
         element.translatesAutoresizingMaskIntoConstraints = false
@@ -91,7 +99,6 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.axis = .vertical
         element.distribution = .fill
         element.spacing = 12
-        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
         return element
     }()
     
@@ -138,16 +145,6 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         return element
     }()
     
-    private lazy var spacerStack: UIStackView = {
-        let element = UIStackView()
-        element.translatesAutoresizingMaskIntoConstraints = false
-        element.alignment = .fill
-        element.axis = .vertical
-        element.distribution = .fill
-        element.setContentHuggingPriority(.defaultHigh, for: .vertical)
-        return element
-    }()
-    
     private lazy var bookmarkButton: UIButton = {
         let element = UIButton(type: .roundedRect)
         element.translatesAutoresizingMaskIntoConstraints = false
@@ -160,6 +157,16 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.tintColor = .systemBlue
         return element
     }()
+    
+//    private lazy var closeButton: UIBarButtonItem = {
+//        let element = UIBarButtonItem(systemItem: .close,
+//                                      primaryAction: #selector(addTapped),
+//                                      menu: nil)
+//        element.translatesAutoresizingMaskIntoConstraints = false
+//        let icon = UIImage(systemName: "x.circle.fill")
+//        element.backgroundColor = .systemBlue
+//        return element
+//    }()
     
     // MARK: - View lifecycle
     override func loadView() {
@@ -197,8 +204,8 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         pinStack.addArrangedSubview(pinView)
         pinStack.addArrangedSubview(lineView)
         
-        acquireStack.addArrangedSubview(dungeonsStack)
-        acquireStack.addArrangedSubview(spacerStack)
+        acquireStack.addArrangedSubview(scrollView)
+        scrollView.addSubview(dungeonsStack)
         verticalStack.addArrangedSubview(bookmarkButton)
         
     }
@@ -211,10 +218,17 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
             verticalStack.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16),
             
             pinStack.heightAnchor.constraint(lessThanOrEqualToConstant: 30),
+           
             
             lineView.heightAnchor.constraint(equalToConstant: 4),
             lineView.widthAnchor.constraint(equalTo: view.widthAnchor,
                                             constant: -72),
+            
+            dungeonsStack.topAnchor.constraint(equalTo: scrollView.topAnchor),
+            dungeonsStack.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
+            dungeonsStack.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+            dungeonsStack.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
+            dungeonsStack.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
             
             bookmarkButton.heightAnchor.constraint(equalToConstant: 44)
         ])
@@ -222,11 +236,20 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
     
     func additionalProperties() {
         navigationController?.navigationBar.prefersLargeTitles = true
+        let rightButton = UIBarButtonItem(barButtonSystemItem: .close,
+                                          target: self,
+                                          action: #selector(addCloseAction))
+        navigationItem.rightBarButtonItem = rightButton
+        
         view.backgroundColor = .systemBackground
         
         numberView.render()
         rankView.render()
         levelView.render()
+    }
+    
+    @objc func addCloseAction() {
+        dismiss(animated: true, completion: nil)
     }
     
     func makeCard(name: String,
@@ -239,7 +262,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
                                         location: location,
                                         pillLocation: pillLocation,
                                         pillLevel: pillLevel)
-        card.heightAnchor.constraint(lessThanOrEqualToConstant: 100).isActive = true
+//        card.heightAnchor.constraint(lessThanOrEqualToConstant: 100).isActive = true
         
         dungeonsStack.addArrangedSubview(card)
         card.render()
@@ -253,7 +276,7 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
                      location: monster.location.name,
                      pillLocation:
                         PillType.fromLocationType(monster.location.type),
-                     pillLevel: "Level \(monster.level.min)-\(monster.level.max)")
+                     pillLevel: monster.levelToString())
         }
     }
     

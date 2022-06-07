@@ -70,11 +70,14 @@ class MainViewController: UIViewController {
                                                          level: 50,
                                                          type: .trial)),
                     MonsterModel(id: 6,
-                                 level: (min: 50, max: 70),
+                                 level: (min: 50, max: 50),
                                  name: "Leviathan",
                                  type: .boss,
                                  location: LocationModel(id: 1,
-                                                         name: "The Whorleater (Hard), The Whorleater (Extreme)",
+                                                         name: """
+                                                         The Whorleater (Hard),
+                                                         The Whorleater (Extreme)
+                                                         """,
                                                          level: 50,
                                                          type: .openWorld)),
                     MonsterModel(id: 7,

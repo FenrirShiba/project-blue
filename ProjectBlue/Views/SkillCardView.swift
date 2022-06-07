@@ -16,20 +16,6 @@ import UIKit
 
 final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
     
-    // MARK: - Properties
-    public var text: String? {
-        didSet {
-           
-
-        }
-    }
-    
-    public var descriptionText: String? {
-        didSet {
-          
-        }
-    }
-    
     // View Code Properties
     private lazy var stack: UIStackView = {
         let element = UIStackView()
@@ -53,7 +39,7 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         element.translatesAutoresizingMaskIntoConstraints = false
         element.alignment = .center
         element.axis = .vertical
-        element.distribution = .equalCentering
+        element.distribution = .fill
         element.spacing = 8
         element.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         element.setContentCompressionResistancePriority(.required, for: .horizontal)
@@ -71,10 +57,10 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         element.translatesAutoresizingMaskIntoConstraints = false
         element.textColor = .label
         element.textAlignment = .left
+        element.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         element.font = .preferredFont(forTextStyle: .caption1)
         element.textColor = .secondaryLabel
         element.numberOfLines = 2
-        element.text = "Level - 50"
         return element
     }()
 
@@ -131,6 +117,7 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
         typeMonsterLabel.text = type
         locationMonsterLabel.text = location
         typePill.style = pillLocation
+        levelLabel.text = pillLevel
     }
     
     @available(*, unavailable)
@@ -162,6 +149,8 @@ final class SkillAcquireCardView: UIView, ViewCodeConfiguration {
             stack.leadingAnchor.constraint(equalTo: leadingAnchor),
             stack.trailingAnchor.constraint(equalTo: trailingAnchor),
             
+            infoStack.widthAnchor.constraint(equalToConstant: 242),
+            
             typePill.heightAnchor.constraint(equalToConstant: 24),
             typePill.widthAnchor.constraint(equalToConstant: 61)
         ])
@@ -181,7 +170,35 @@ struct SkillAcquireCardContainerView: UIViewRepresentable {
                                         type: "Boss",
                                         location: "The Binding Coil of Bahamut - Turn 1",
                                         pillLocation: .trial,
-                                        pillLevel: ":Level - 50")
+                                        pillLevel: "Lvl - 50")
+        view.render()
+        return view
+    }
+
+    func updateUIView(_ uiView: UIView, context: Context) {}
+}
+
+struct SkillAcquireCardContainerView2: UIViewRepresentable {
+    func makeUIView(context: Context) -> UIView {
+        let view = SkillAcquireCardView(name: "ADS",
+                                        type: "Boss",
+                                        location: "The Binding Coil of Bahamut - Turn 1",
+                                        pillLocation: .dungeon,
+                                        pillLevel: "Lvl - 50")
+        view.render()
+        return view
+    }
+
+    func updateUIView(_ uiView: UIView, context: Context) {}
+}
+
+struct SkillAcquireCardContainerView3: UIViewRepresentable {
+    func makeUIView(context: Context) -> UIView {
+        let view = SkillAcquireCardView(name: "ADS",
+                                        type: "Boss",
+                                        location: "The Binding Coil of Bahamut - Turn 1, The Binding Coil of Bahamut - Turn 1",
+                                        pillLocation: .maskedCarnivale,
+                                        pillLevel: "Lvl - 50")
         view.render()
         return view
     }
@@ -192,6 +209,10 @@ struct SkillAcquireCardContainerView: UIViewRepresentable {
 struct SkillAcquireCardContainerView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
+            SkillAcquireCardContainerView2()
+                .previewLayout(.fixed(width: 375, height: 120))
+            SkillAcquireCardContainerView3()
+                .previewLayout(.fixed(width: 375, height: 120))
             SkillAcquireCardContainerView()
                 .previewLayout(.fixed(width: 375, height: 120))
                 .colorScheme(.light)

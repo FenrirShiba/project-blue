@@ -27,6 +27,14 @@ class MonsterModel {
         self.type = type
         self.location = location
     }
+    
+    func levelToString() -> String {
+        let labelDescription = "Lvl "
+        if level.min == level.max {
+            return "\(labelDescription) \(level.min)"
+        }
+        return "\(labelDescription) \(level.min)-\(level.max)"
+    }
 }
 
 enum MonsterType {
