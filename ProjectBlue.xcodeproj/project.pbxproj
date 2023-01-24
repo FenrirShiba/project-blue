@@ -10,7 +10,11 @@
 		E45D0A6D282C450600A8FF9A /* ConvertionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A6C282C450600A8FF9A /* ConvertionHelper.swift */; };
 		E45D0A6F282DC8A200A8FF9A /* MonsterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A6E282DC8A200A8FF9A /* MonsterModel.swift */; };
 		E45D0A71282DCD6800A8FF9A /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D0A70282DCD6800A8FF9A /* LocationModel.swift */; };
+		E46643402874C6E20086D059 /* LocationRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466433F2874C6E10086D059 /* LocationRequestModel.swift */; };
+		E46643422874C7190086D059 /* AcquireRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46643412874C7190086D059 /* AcquireRequestModel.swift */; };
 		E474295A281B4E35006A9D66 /* SkillSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4742959281B4E35006A9D66 /* SkillSheetController.swift */; };
+		E49B6F2A287356930086390A /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B6F29287356930086390A /* RequestHelper.swift */; };
+		E49B6F2C287356DC0086390A /* MonsterRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B6F2B287356DC0086390A /* MonsterRequestModel.swift */; };
 		E4A518D527F25048005CA680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A518D427F25048005CA680 /* AppDelegate.swift */; };
 		E4A518D927F25048005CA680 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A518D827F25048005CA680 /* MainViewController.swift */; };
 		E4A518DE27F2504B005CA680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A518DD27F2504B005CA680 /* Assets.xcassets */; };
@@ -49,7 +53,12 @@
 		E45D0A6C282C450600A8FF9A /* ConvertionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertionHelper.swift; sourceTree = "<group>"; };
 		E45D0A6E282DC8A200A8FF9A /* MonsterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterModel.swift; sourceTree = "<group>"; };
 		E45D0A70282DCD6800A8FF9A /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		E466433F2874C6E10086D059 /* LocationRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestModel.swift; sourceTree = "<group>"; };
+		E46643412874C7190086D059 /* AcquireRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcquireRequestModel.swift; sourceTree = "<group>"; };
 		E4742959281B4E35006A9D66 /* SkillSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSheetController.swift; sourceTree = "<group>"; };
+		E49B6F272857B9810086390A /* Database.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Database.json; sourceTree = "<group>"; };
+		E49B6F29287356930086390A /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		E49B6F2B287356DC0086390A /* MonsterRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterRequestModel.swift; sourceTree = "<group>"; };
 		E4A518D127F25048005CA680 /* ProjectBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A518D427F25048005CA680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A518D827F25048005CA680 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +113,25 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		E49B6F262857B9550086390A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E49B6F272857B9810086390A /* Database.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E49B6F28287356690086390A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E49B6F29287356930086390A /* RequestHelper.swift */,
+				E49B6F2B287356DC0086390A /* MonsterRequestModel.swift */,
+				E466433F2874C6E10086D059 /* LocationRequestModel.swift */,
+				E46643412874C7190086D059 /* AcquireRequestModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		E4A518C827F25048005CA680 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +155,8 @@
 		E4A518D327F25048005CA680 /* ProjectBlue */ = {
 			isa = PBXGroup;
 			children = (
+				E49B6F28287356690086390A /* Networking */,
+				E49B6F262857B9550086390A /* Data */,
 				E45D0A6B282C44E400A8FF9A /* Shared */,
 				E4EC04D9282AF77B00FCD824 /* Extensions */,
 				E4B5C9F92821A4F100E7FE67 /* Protocols */,
@@ -335,12 +365,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49B6F2A287356930086390A /* RequestHelper.swift in Sources */,
 				E4AB59CA28358C460080063E /* SkillCardView.swift in Sources */,
 				E4AB59CC2836DE470080063E /* PillView.swift in Sources */,
 				E4B5C9FB2821A50900E7FE67 /* ViewCodeConfiguration.swift in Sources */,
 				E4A518D927F25048005CA680 /* MainViewController.swift in Sources */,
 				E4A518D527F25048005CA680 /* AppDelegate.swift in Sources */,
+				E49B6F2C287356DC0086390A /* MonsterRequestModel.swift in Sources */,
 				E4B4C39E27FE296F0002563A /* AppCoordinator.swift in Sources */,
+				E46643422874C7190086D059 /* AcquireRequestModel.swift in Sources */,
 				E474295A281B4E35006A9D66 /* SkillSheetController.swift in Sources */,
 				E45D0A6F282DC8A200A8FF9A /* MonsterModel.swift in Sources */,
 				E45D0A6D282C450600A8FF9A /* ConvertionHelper.swift in Sources */,
@@ -348,6 +381,7 @@
 				E4A5190C27F4E83C005CA680 /* SkillModel.swift in Sources */,
 				E45D0A71282DCD6800A8FF9A /* LocationModel.swift in Sources */,
 				E4B5C9FD2821C1A100E7FE67 /* IconTileView.swift in Sources */,
+				E46643402874C6E20086D059 /* LocationRequestModel.swift in Sources */,
 				E4EC04DD282B008900FCD824 /* UIFontExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,3813 @@
+[
+    {
+        "img_name": "String",
+        "title": "String",
+        "number": 1,
+        "rank": 2,
+        "type": [
+            "Dungeon",
+            "Raid"
+        ],
+        "min_lvl": "1",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 1,
+                "name": "Gobmachine G-VI",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [
+                    1.5,
+                    3.2
+                ],
+                "location": {
+                    "id": 1,
+                    "name": "Western La Noscea",
+                    "level": 50,
+                    "type": "open_world"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Water Cannon.png",
+        "title": "Water Cannon",
+        "number": "1",
+        "rank": "★",
+        "type": "Default",
+        "min_lvl": "1",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": "Default"
+    },
+    {
+        "img_name": "Flame Thrower.png",
+        "title": "Flame Thrower",
+        "number": "2",
+        "rank": "★★★★",
+        "type": "Dungeon or Raid",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 1,
+                "name": "Gobmachine G-VI",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 1,
+                    "name": "Brayflox's Longstop (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 2,
+                "name": "Einhander",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 2,
+                    "name": "The Keeper of the Lake",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 3,
+                "name": "Magitek Gunship",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 2,
+                    "name": "The Keeper of the Lake ",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 4,
+                "name": "Omega",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 3,
+                    "name": "Alphascape V3.0",
+                    "level": 70,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Aqua Breath.png",
+        "title": "Aqua Breath",
+        "number": "3",
+        "rank": "★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 5,
+                "name": "Ultros",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 4,
+                    "name": "The Dragon's Neck",
+                    "level": 50,
+                    "type": "trial"
+                }
+            },
+            {
+                "id": 6,
+                "name": "Leviathan",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 5,
+                    "name": "The Whorleater (Hard), The Whorleater (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            },
+            {
+                "id": 7,
+                "name": "Ultros",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 6,
+                    "name": "Stage 20 Masked Carnivale - Miss Typhon",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Flying Frenzy.png",
+        "title": "Flying Frenzy",
+        "number": "4",
+        "rank": "★★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "50",
+        "world_mob_l": "50",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 8,
+                "name": "Cornu ",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 7,
+                    "name": "Rank A Elite Mark in Outer La Noscea",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 9,
+                "name": "Zu",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [
+                    "Kill 2 eggs to trigger the Boss to cast"
+                ],
+                "location": {
+                    "id": 8,
+                    "name": "Pharos Sirius (2nd Boss)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Drill Cannons.png",
+        "title": "Drill Cannons",
+        "number": "5",
+        "rank": "★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "46",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 10,
+                "name": "Abandoned Vanguard",
+                "lvl_range": [
+                    46,
+                    50
+                ],
+                "type": "fate",
+                "add_info": [],
+                "location": {
+                    "id": 9,
+                    "name": "Reverse Engineering - Level 46 FATE from Northern Thanalan (x18,y15)",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 11,
+                "name": "Magitek Vanguard and Magitek Vanguard H-1",
+                "lvl_range": [
+                    46,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 10,
+                    "name": "Castrum Meridianum",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 12,
+                "name": "Magitek Vangob G-III",
+                "lvl_range": [
+                    46,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 1,
+                    "name": "Brayflox's Longstop (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "High Voltage.png",
+        "title": "High Voltage",
+        "number": "6",
+        "rank": "★★★★",
+        "type": "Raid or Masked Carnivale",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 13,
+                "name": "ADS",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 11,
+                    "name": "The Binding Coil of Bahamut - Turn 1, The Binding Coil of Bahamut - Turn 2",
+                    "level": 50,
+                    "type": "raid"
+                }
+            },
+            {
+                "id": 14,
+                "name": "Bestial Node",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 12,
+                    "name": "Stage 15 Masked Carnivale - The Me Nobody Nodes",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Loom.png",
+        "title": "Loom",
+        "number": "7",
+        "rank": "★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "50",
+        "world_mob_l": "50",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 15,
+                "name": "Flame Sergeant Dalvag",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 13,
+                    "name": "Rank B Elite Mark in Northern Thanalan",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 16,
+                "name": "Dantalion (Trash) & Phantom Knight (Trash)",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 14,
+                    "name": "Tam-Tara Deepcroft (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 17,
+                "name": "Baalzephon",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 15,
+                    "name": "The Lost City of Amdapor",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Final Sting.png",
+        "title": "Final Sting",
+        "number": "8",
+        "rank": "★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "13",
+        "duty_lvl": "35",
+        "acquire": [
+            {
+                "id": 18,
+                "name": "Killer Wespe",
+                "lvl_range": [
+                    13,
+                    35
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 16,
+                    "name": "Middle La Noscea (x15,y15)",
+                    "level": 13,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 19,
+                "name": "Temple Bee",
+                "lvl_range": [
+                    13,
+                    35
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 14,
+                    "name": "The Sunken Temple of Qarn",
+                    "level": 35,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Song of Torment.png",
+        "title": "Song of Torment",
+        "number": "9",
+        "rank": "★★",
+        "type": "Dungeon or Open World",
+        "min_lvl": "50",
+        "world_mob_l": "80",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 18,
+                "name": "Siren",
+                "lvl_range": [
+                    50,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 15,
+                    "name": "Pharos Sirius",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 19,
+                "name": "Aglaope",
+                "lvl_range": [
+                    50,
+                    80
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 16,
+                    "name": "Rank S Elite Mark in Il Mheg",
+                    "level": 80,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Glower.png",
+        "title": "Glower",
+        "number": "10",
+        "rank": "★★★★",
+        "type": "Dungeon or Open World",
+        "min_lvl": "47",
+        "world_mob_l": "50",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 20,
+                "name": "Coincounter",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 17,
+                    "name": "The Aurum Vale",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 21,
+                "name": "Brontes",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 18,
+                    "name": "Rank S Elite Mark in Central Thanalan",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Plaincracker.png",
+        "title": "Plaincracker",
+        "number": "11",
+        "rank": "★★",
+        "type": "Open World <br> Dungeon <br> Masked Carnivale",
+        "min_lvl": "1",
+        "world_mob_l": "28",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 22,
+                "name": "Clay Golem",
+                "lvl_range": [
+                    28,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 19,
+                    "name": "North Shroud (x19,y29)",
+                    "level": 28,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 23,
+                "name": "Sandstone Golem",
+                "lvl_range": [
+                    28,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 20,
+                    "name": "Southern Thanalan (x24,y13)",
+                    "level": 29,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 24,
+                "name": "Nunyunuwi",
+                "lvl_range": [
+                    28,
+                    50
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 21,
+                    "name": "Rank S Elite Mark in Southern Thanalan",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 25,
+                "name": "Basalt Golem",
+                "lvl_range": [
+                    28,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 22,
+                    "name": "Outer La Noscea (x16,y16)",
+                    "level": 34,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 26,
+                "name": "Gogmagolem",
+                "lvl_range": [
+                    28,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 23,
+                    "name": "Copperbell Mines (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 27,
+                "name": "Azulmagia",
+                "lvl_range": [
+                    28,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 24,
+                    "name": "Stage 25 Masked Carnivale - Dirty Rotten Azulmagia",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Bristle.png",
+        "title": "Bristle",
+        "number": "12",
+        "rank": "★★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "08",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 28,
+                "name": "Charging Hog",
+                "lvl_range": [
+                    8,
+                    20
+                ],
+                "type": "fate",
+                "add_info": [],
+                "location": {
+                    "id": 25,
+                    "name": "Level 8 FATE in Central Shroud (x29,y23)",
+                    "level": 28,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 29,
+                "name": "Wild Boar",
+                "lvl_range": [
+                    8,
+                    20
+                ],
+                "type": "fate",
+                "add_info": [],
+                "location": {
+                    "id": 26,
+                    "name": "Level 20 East Shroud (x18,y24)",
+                    "level": 20,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "White Wind.png",
+        "title": "White Wind",
+        "number": "13",
+        "rank": "★★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "1",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 30,
+                "name": "Whalaqee White Wind Totem",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 27,
+                    "name": "Learn 10 Blue Magic Spells",
+                    "level": 28,
+                    "type": "whalaqee"
+                }
+            },
+            {
+                "id": 31,
+                "name": "Enkidu",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 26,
+                    "name": "Battle in the Big Keep",
+                    "level": 28,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Level 5 Petrify.png",
+        "title": "Level 5 Petrify",
+        "number": "14",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "28",
+        "world_mob_l": "~",
+        "duty_lvl": "28",
+        "acquire": [
+            {
+                "id": 32,
+                "name": "Manor Sentry",
+                "lvl_range": [
+                    28,
+                    28
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 27,
+                    "name": "Haukke Manor",
+                    "level": 28,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Sharpened Knife.png",
+        "title": "Sharpened Knife",
+        "number": "15",
+        "rank": "★★★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "50",
+        "world_mob_l": "50",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 33,
+                "name": "Marberry",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 28,
+                    "name": "Rank A Elite Mark in Upper La Noscea",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 34,
+                "name": "Tonberry King",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 29,
+                    "name": "The Wanderer's Palace",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Ice Spikes.png",
+        "title": "Ice Spikes",
+        "number": "16",
+        "rank": "★",
+        "type": "Open World <br> Dungeon <br> Masked Carnivale",
+        "min_lvl": "1",
+        "world_mob_l": "09",
+        "duty_lvl": "28",
+        "acquire": [
+            {
+                "id": 35,
+                "name": "Trickster Imp",
+                "lvl_range": [
+                    9,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 30,
+                    "name": "Level 9 Central Shroud (x27,y24)",
+                    "level": 9,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 36,
+                "name": "Vandalous Imp",
+                "lvl_range": [
+                    9,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 31,
+                    "name": "Level 16 Eastern Thanalan (x15,y19)",
+                    "level": 16,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 37,
+                "name": "Manor Jester",
+                "lvl_range": [
+                    9,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 32,
+                    "name": "Haukke Manor",
+                    "level": 28,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 38,
+                "name": "Azulmagia",
+                "lvl_range": [
+                    9,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 33,
+                    "name": "Stage 25 Masked Carnivale - Dirty Rotten Azulmagia",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Blood Drain.png",
+        "title": "Blood Drain",
+        "number": "17",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "05",
+        "duty_lvl": "28",
+        "acquire": [
+            {
+                "id": 39,
+                "name": "Chigoe",
+                "lvl_range": [
+                    5,
+                    28
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 34,
+                    "name": "Level 5-7 Central Shroud (x25,y20)",
+                    "level": 5,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 40,
+                "name": "Cave Bat",
+                "lvl_range": [
+                    5,
+                    28
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 34,
+                    "name": "Level 7 Lower La Noscea (x27,y16)",
+                    "level": 7,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 41,
+                "name": "Barbastelle",
+                "lvl_range": [
+                    5,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 35,
+                    "name": "Rank B Elite Mark in Lower La Noscea",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Acorn Bomb.png",
+        "title": "Acorn Bomb",
+        "number": "18",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "12",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 42,
+                "name": "Treant Sapling",
+                "lvl_range": [
+                    12,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 34,
+                    "name": "Level 12-17 North Shroud (x27,y28)",
+                    "level": 12,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 43,
+                "name": "Wulgaru",
+                "lvl_range": [
+                    12,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 35,
+                    "name": "Rank S Elite Mark in East Shroud",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Bomb Toss.png",
+        "title": "Bomb Toss",
+        "number": "19",
+        "rank": "★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "05",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 44,
+                "name": "Goblin Fisher & Goblin Gambler",
+                "lvl_range": [
+                    5,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 36,
+                    "name": "Level 5-7 Middle La Noscea (x23,y21)",
+                    "level": 5,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 45,
+                "name": "Illuminati Commander",
+                "lvl_range": [
+                    5,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 37,
+                    "name": "Brayflox's Longstop (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Off-guard.png",
+        "title": "Off-guard",
+        "number": "20",
+        "rank": "★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "1",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 46,
+                "name": "Whalaqee Off-guard Totem",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 38,
+                    "name": "Learn 5 Blue Magic Spells",
+                    "level": 1,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Self-destruct.png",
+        "title": "Self-destruct",
+        "number": "21",
+        "rank": "★",
+        "type": "Open World or Dungeon or Masked Carnivale",
+        "min_lvl": "1",
+        "world_mob_l": "12",
+        "duty_lvl": "17",
+        "acquire": [
+            {
+                "id": 47,
+                "name": "Glide Bomb",
+                "lvl_range": [
+                    12,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 39,
+                    "name": "Level 12 - Western Thanalan (x27,y16)",
+                    "level": 5,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 48,
+                "name": "Blasting Cap",
+                "lvl_range": [
+                    12,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 40,
+                    "name": "Copperbell Mines",
+                    "level": 17,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 49,
+                "name": "Cherry Bomb",
+                "lvl_range": [
+                    12,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 41,
+                    "name": "Stage 8 Masked Carnivale - The Bomb-edy of Errors",
+                    "level": 17,
+                    "type": "maskedCarnivale"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Transfusion.png",
+        "title": "Transfusion",
+        "number": "22",
+        "rank": "★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "1",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 50,
+                "name": "Whalaqee Transfusion Totem",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "whalaqeee",
+                "add_info": [],
+                "location": {
+                    "id": 42,
+                    "name": "Learn 20 Blue Magic Spells",
+                    "level": 5,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Faze.png",
+        "title": "Faze",
+        "number": "23",
+        "rank": "★★★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "06",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 51,
+                "name": "Qiqirn Gullroaster",
+                "lvl_range": [
+                    6,
+                    32
+                ],
+                "type": "fate",
+                "add_info": [],
+                "location": {
+                    "id": 43,
+                    "name": "Level 6 FATE from Central Thanalan (x18,y20)",
+                    "level": 6,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 52,
+                "name": "Qiqirn Shellsweeper",
+                "lvl_range": [
+                    6,
+                    32
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 44,
+                    "name": "Level 9 Central Thanalan (x16,y19)",
+                    "level": 9,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 53,
+                "name": "Qiqirn Gullroaster",
+                "lvl_range": [
+                    6,
+                    32
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 45,
+                    "name": "Level 32 Eastern La Noscea (x26,y32)",
+                    "level": 32,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Flying Sardine.png",
+        "title": "Flying Sardine",
+        "number": "24",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "30",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 54,
+                "name": "Apkallu",
+                "lvl_range": [
+                    30,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 46,
+                    "name": "Level 30 Eastern La Noscea (x27,y35)",
+                    "level": 30,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 55,
+                "name": "Bloody Mary",
+                "lvl_range": [
+                    30,
+                    50
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 47,
+                    "name": "Rank B Elite Mark in Eastern La Noscea",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Snort.png",
+        "title": "Snort",
+        "number": "25",
+        "rank": "★★★★",
+        "type": "Trial <br> Masked Carnivale",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 56,
+                "name": "Typhon",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 48,
+                    "name": "The Dragon's Neck",
+                    "level": 50,
+                    "type": "trial"
+                }
+            },
+            {
+                "id": 57,
+                "name": "Typhon",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 49,
+                    "name": "Stage 20 Masked Carnivale - Miss Typhon",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            },
+            {
+                "id": 58,
+                "name": "Typhon",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 50,
+                    "name": "Stage 27 Masked Carnivale - Lock up Your Snorters",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "4-tonze Weight.png",
+        "title": "4-tonze Weight",
+        "number": "26",
+        "rank": "★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 59,
+                "name": "Ultros",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 51,
+                    "name": "The Dragon's Neck",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "The Look.png",
+        "title": "The Look",
+        "number": "27",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "45",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 60,
+                "name": "Anantaboga",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 52,
+                    "name": "Amdapor Keep",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 61,
+                "name": "Bibliolater",
+                "lvl_range": [
+                    50,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 53,
+                    "name": "he Great Gubal Library (Hard)",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Bad Breath.png",
+        "title": "Bad Breath",
+        "number": "28",
+        "rank": "★★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "31",
+        "duty_lvl": "45",
+        "acquire": [
+            {
+                "id": 62,
+                "name": "Stroper",
+                "lvl_range": [
+                    31,
+                    45
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 54,
+                    "name": "Central Shroud (x13,y21)",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 63,
+                "name": "Morbol",
+                "lvl_range": [
+                    31,
+                    45
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 55,
+                    "name": "Aurum Vale",
+                    "level": 47,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Diamondback.png",
+        "title": "Diamondback",
+        "number": "29",
+        "rank": "★★★★",
+        "type": "Dungeon <br> Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 64,
+                "name": "Cuca Fera",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 56,
+                    "name": "The Stone Vigil (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 65,
+                "name": "Horde Armored Dragon",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 57,
+                    "name": "The Steps of Faith",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Mighty Guard.png",
+        "title": "Mighty Guard",
+        "number": "30",
+        "rank": "★★★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "1",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 66,
+                "name": "Whalaqee Mighty Guard Totem",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 56,
+                    "name": "Learn 10 Blue Magic Spells",
+                    "level": 50,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Sticky Tongue.png",
+        "title": "Sticky Tongue",
+        "number": "31",
+        "rank": "★★★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "02",
+        "duty_lvl": "44",
+        "acquire": [
+            {
+                "id": 67,
+                "name": "Cane Toad",
+                "lvl_range": [
+                    2,
+                    44
+                ],
+                "type": "fate",
+                "add_info": [],
+                "location": {
+                    "id": 57,
+                    "name": "Level 2 FATE in Lower La Noscea (x24,y22)",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 68,
+                "name": "Bone Nix",
+                "lvl_range": [
+                    2,
+                    44
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 58,
+                    "name": "Dzemael Darkhold",
+                    "level": 44,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Toad Oil.png",
+        "title": "Toad Oil",
+        "number": "32",
+        "rank": "★★★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "24",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 69,
+                "name": "Giggling Gigantoad",
+                "lvl_range": [
+                    24,
+                    24
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 59,
+                    "name": "Level 24 Western Thanalan (x15,y7)",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "The Ram's Voice.png",
+        "title": "The Ram's Voice",
+        "number": "33",
+        "rank": "★★",
+        "type": "Dungeon <br> Open World <br> Trial <br> Raid <br> Masked Carnivale",
+        "min_lvl": "38",
+        "world_mob_l": "49",
+        "duty_lvl": "38",
+        "acquire": [
+            {
+                "id": 70,
+                "name": "Chimera",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 60,
+                    "name": "Cutter's Cry",
+                    "level": 38,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 71,
+                "name": "Apademak",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 61,
+                    "name": "Stage 21 Masked Carnivale - Chimera on a Hot Tin Roof",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            },
+            {
+                "id": 72,
+                "name": "Azulmagia",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 62,
+                    "name": "Stage 25 Masked Carnivale - Dirty Rotten Azulmagia",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            },
+            {
+                "id": 73,
+                "name": "Tyger",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 63,
+                    "name": "Stage 25 Masked Carnivale - Dirty Rotten Azulmagia",
+                    "level": 80,
+                    "type": "Rank S Elite Mark in Lakeland"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "The Dragon's Voice.png",
+        "title": "The Dragon's Voice",
+        "number": "34",
+        "rank": "★★",
+        "type": "Dungeon <br> Open World <br> Trial <br> Raid <br> Masked Carnivale",
+        "min_lvl": "38",
+        "world_mob_l": "49",
+        "duty_lvl": "38",
+        "acquire": [
+            {
+                "id": 74,
+                "name": "Chimera",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 64,
+                    "name": "Cutter's Cry",
+                    "level": 38,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 75,
+                "name": "Apademak",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 65,
+                    "name": "Stage 21 Masked Carnivale - Chimera on a Hot Tin Roof",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            },
+            {
+                "id": 76,
+                "name": "Azulmagia",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 66,
+                    "name": "Stage 25 Masked Carnivale - Dirty Rotten Azulmagia",
+                    "level": 50,
+                    "type": "maskedCarnivale"
+                }
+            },
+            {
+                "id": 77,
+                "name": "Tyger",
+                "lvl_range": [
+                    38,
+                    80
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 67,
+                    "name": "Stage 25 Masked Carnivale - Dirty Rotten Azulmagia",
+                    "level": 80,
+                    "type": "Rank S Elite Mark in Lakeland"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Missile.png",
+        "title": "Missile",
+        "number": "35",
+        "rank": "★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 78,
+                "name": "Enkidu",
+                "lvl_range": [
+                    50,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 68,
+                    "name": "Battle in the Big Keep",
+                    "level": 50,
+                    "type": "trial"
+                }
+            },
+            {
+                "id": 79,
+                "name": "Guardian",
+                "lvl_range": [
+                    50,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 69,
+                    "name": "Sigmascape V3.0",
+                    "level": 70,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "1000 Needles.png",
+        "title": "1000 Needles",
+        "number": "36",
+        "rank": "★★★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "24",
+        "duty_lvl": "38",
+        "acquire": [
+            {
+                "id": 80,
+                "name": "Sabotender Bailaor",
+                "lvl_range": [
+                    26,
+                    38
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 70,
+                    "name": "Level 26 Southern Thanalan (x16,y15)",
+                    "level": 26,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 81,
+                "name": "Sabotender Desertor",
+                "lvl_range": [
+                    26,
+                    38
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 71,
+                    "name": "Cutter's Cry",
+                    "level": 38,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Ink Jet.png",
+        "title": "Ink Jet",
+        "number": "37",
+        "rank": "★★★",
+        "type": "Dungeon",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 82,
+                "name": "Kraken",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 72,
+                    "name": "Sastasha (Hard)",
+                    "level": 26,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Fire Angon.png",
+        "title": "Fire Angon",
+        "number": "38",
+        "rank": "★★★",
+        "type": "Dungeon",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 83,
+                "name": "Frumious Koheel Ja",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 73,
+                    "name": "The Wanderer's Palace (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Moon Flute.png",
+        "title": "Moon Flute",
+        "number": "39",
+        "rank": "★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 84,
+                "name": "Whalaqee Moon Flute Totem",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 74,
+                    "name": "Clear 10 Stages in The Masked Carnivale",
+                    "level": 50,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Tail Screw.png",
+        "title": "Tail Screw",
+        "number": "40",
+        "rank": "★★★★",
+        "type": "Dungeon <br> Open World <br> Raid",
+        "min_lvl": "1",
+        "world_mob_l": "61",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 85,
+                "name": "Karlabos",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 75,
+                    "name": "Sastasha (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 86,
+                "name": "Reflection of Karlabos",
+                "lvl_range": [
+                    50,
+                    60
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 76,
+                    "name": "The Sirensong Sea",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Mind Blast.png",
+        "title": "Mind Blast",
+        "number": "41",
+        "rank": "★",
+        "type": "Dungeon or Raid",
+        "min_lvl": "16",
+        "world_mob_l": "50",
+        "duty_lvl": "16",
+        "acquire": [
+            {
+                "id": 87,
+                "name": "Galvanth the Dominator",
+                "lvl_range": [
+                    16,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 77,
+                    "name": "The Tam-Tara Deepcroft",
+                    "level": 16,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 88,
+                "name": "Blaster",
+                "lvl_range": [
+                    16,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 78,
+                    "name": "Alexander - The Burden of the Son",
+                    "level": 60,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Doom.png",
+        "title": "Doom",
+        "number": "42",
+        "rank": "★★★★",
+        "type": "Whalaqee Totem <br> Open World",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "80",
+        "acquire": [
+            {
+                "id": 89,
+                "name": "Whalaqee Doom Totem",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 79,
+                    "name": "Clear 20 Stages in The Masked Carnivale",
+                    "level": 1,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Peculiar Light.png",
+        "title": "Peculiar Light",
+        "number": "43",
+        "rank": "★★",
+        "type": "Open World <br> Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "45",
+        "duty_lvl": "32",
+        "acquire": [
+            {
+                "id": 90,
+                "name": "Lentic Mudpuppy",
+                "lvl_range": [
+                    32,
+                    45
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 80,
+                    "name": "Level 45 Mor Dhona (x13,y10)",
+                    "level": 45,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 91,
+                "name": "Surf Eft",
+                "lvl_range": [
+                    32,
+                    45
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 81,
+                    "name": "Brayflox's Longstop",
+                    "level": 32,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Feather Rain.png",
+        "title": "Feather Rain",
+        "number": "44",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 92,
+                "name": "Garuda",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 80,
+                    "name": "The Howling Eye (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Eruption.png",
+        "title": "Eruption",
+        "number": "45",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "20",
+        "world_mob_l": "~",
+        "duty_lvl": "20",
+        "acquire": [
+            {
+                "id": 93,
+                "name": "Ifrit",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 81,
+                    "name": "The Bowl of Embers, The Bowl of Embers (Hard), The Bowl of Embers (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Mountain Buster.png",
+        "title": "Mountain Buster",
+        "number": "46",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 94,
+                "name": "Titan",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 82,
+                    "name": "The Navel (Hard), The Navel (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Shock Strike.png",
+        "title": "Shock Strike",
+        "number": "47",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 95,
+                "name": "Ramuh",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 83,
+                    "name": "The Striking Tree (Hard), The Striking Tree (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Glass Dance.png",
+        "title": "Glass Dance",
+        "number": "48",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 96,
+                "name": "Shiva",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 84,
+                    "name": "Akh Afah Amphitheatre (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Veil of the Whorl.png",
+        "title": "Veil of the Whorl",
+        "number": "49",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 97,
+                "name": "Leviathan",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 85,
+                    "name": "The Whorleater (Hard), The Whorleater (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Alpine Draft.png",
+        "title": "Alpine Draft",
+        "number": "50",
+        "rank": "★★",
+        "type": "Dungeon or Open World",
+        "min_lvl": "1",
+        "world_mob_l": "59",
+        "duty_lvl": "51",
+        "acquire": [
+            {
+                "id": 98,
+                "name": "Opinicus",
+                "lvl_range": [
+                    51,
+                    59
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 86,
+                    "name": "The Dusk Vigil",
+                    "level": 51,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 99,
+                "name": "Griffin",
+                "lvl_range": [
+                    51,
+                    59
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 87,
+                    "name": "The Sea of Clouds (x36,y9)",
+                    "level": 59,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Protean Wave.png",
+        "title": "Protean Wave",
+        "number": "51",
+        "rank": "★★★",
+        "type": "Open World or Raid",
+        "min_lvl": "60",
+        "world_mob_l": "70",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 100,
+                "name": "Salt and Light",
+                "lvl_range": [
+                    60,
+                    70
+                ],
+                "type": "rank",
+                "add_info": [],
+                "location": {
+                    "id": 88,
+                    "name": "Rank S Elite Mark in The Lochs",
+                    "level": 51,
+                    "type": "openWorld"
+                }
+            },
+            {
+                "id": 101,
+                "name": "Living Liquid",
+                "lvl_range": [
+                    60,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 89,
+                    "name": "Alexander - The Arm of the Father",
+                    "level": 51,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Northerlies.png",
+        "title": "Northerlies",
+        "number": "52",
+        "rank": "★★★★",
+        "type": "Open World <br> Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "51",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 102,
+                "name": "Yeti",
+                "lvl_range": [
+                    50,
+                    51
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 90,
+                    "name": "Snowcloak",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            },
+            {
+                "id": 103,
+                "name": "Lone Yeti",
+                "lvl_range": [
+                    50,
+                    51
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 91,
+                    "name": "Coerthas Western Highlands (x20,y31)",
+                    "level": 51,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Electrogenesis.png",
+        "title": "Electrogenesis",
+        "number": "53",
+        "rank": "★★",
+        "type": "Open World <br> Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "50",
+        "duty_lvl": "63",
+        "acquire": [
+            {
+                "id": 104,
+                "name": "Conodont",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 92,
+                    "name": "The Sea of Clouds (x26,y33)",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Kaltstrahl.png",
+        "title": "Kaltstrahl",
+        "number": "54",
+        "rank": "★★",
+        "type": "Raid",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 105,
+                "name": "Faust & Strum Doll",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 93,
+                    "name": "Alexander - The Fist of the Father",
+                    "level": 50,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Abyssal Transfixion.png",
+        "title": "Abyssal Transfixion",
+        "number": "55",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "58",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 106,
+                "name": "Ash",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 94,
+                    "name": "Haukke Manor (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Chirp.png",
+        "title": "Chirp",
+        "number": "56",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "50",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 107,
+                "name": "Paissa",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 95,
+                    "name": "The Sea of Clouds (x19,y35)",
+                    "level": 50,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Eerie Soundwave.png",
+        "title": "Eerie Soundwave",
+        "number": "57",
+        "rank": "★★",
+        "type": "Trial",
+        "min_lvl": "1",
+        "world_mob_l": "59",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 108,
+                "name": "Enkidu",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 96,
+                    "name": "Battle in the Big Keep",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Pom Cure.png",
+        "title": "Pom Cure",
+        "number": "58",
+        "rank": "★★★",
+        "type": "Trial",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 109,
+                "name": "Furryfoot Kupli Kipp",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 97,
+                    "name": "Thornmarch (Hard) and Thornmarch (Extreme)",
+                    "level": 50,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Gobskin.png",
+        "title": "Gobskin",
+        "number": "59",
+        "rank": "★★★★",
+        "type": "Open World <br> Raid",
+        "min_lvl": "60",
+        "world_mob_l": "60",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 110,
+                "name": "Slipkinx Steeljoints",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 98,
+                    "name": "Rank A Elite Mark in The Dravanian Hinterlands",
+                    "level": 60,
+                    "type": "trial"
+                }
+            },
+            {
+                "id": 111,
+                "name": "Alexandrian Hider & Alexandrian Slider",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 99,
+                    "name": "Alexander - The Breath of the Creator",
+                    "level": 60,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Magic Hammer.png",
+        "title": "Magic Hammer",
+        "number": "60",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 112,
+                "name": "Apanda",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 100,
+                    "name": "The Great Gubal Library (Hard)",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Avail.png",
+        "title": "Avail",
+        "number": "61",
+        "rank": "★",
+        "type": "Dungeon",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 113,
+                "name": "Queen Hawk",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 101,
+                    "name": "Saint Mocianne's Arboretum",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Frog Legs.png",
+        "title": "Frog Legs",
+        "number": "62",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "59",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 114,
+                "name": "Poroggo",
+                "lvl_range": [
+                    59,
+                    59
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 102,
+                    "name": "The Dravanian Hinterlands (x12,y34)",
+                    "level": 60,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Sonic Boom.png",
+        "title": "Sonic Boom",
+        "number": "63",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "50",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 115,
+                "name": "Zu",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 103,
+                    "name": "Pharos Sirius",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Whistle.png",
+        "title": "Whistle",
+        "number": "64",
+        "rank": "★★★",
+        "type": "Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "56",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 116,
+                "name": "Dhalmel",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 104,
+                    "name": "Neverreap",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "White Knight's Tour.png",
+        "title": "White Knight's Tour",
+        "number": "65",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "57",
+        "world_mob_l": "~",
+        "duty_lvl": "57",
+        "acquire": [
+            {
+                "id": 117,
+                "name": "White Knight",
+                "lvl_range": [
+                    57,
+                    57
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 105,
+                    "name": "The Vault",
+                    "level": 57,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Black Knight's Tour.png",
+        "title": "Black Knight's Tour",
+        "number": "66",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "57",
+        "world_mob_l": "~",
+        "duty_lvl": "57",
+        "acquire": [
+            {
+                "id": 118,
+                "name": "Black Knight",
+                "lvl_range": [
+                    57,
+                    57
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 106,
+                    "name": "The Vault",
+                    "level": 57,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Level 5 Death.png",
+        "title": "Level 5 Death",
+        "number": "67",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "59",
+        "world_mob_l": "~",
+        "duty_lvl": "59",
+        "acquire": [
+            {
+                "id": 119,
+                "name": "Page 64",
+                "lvl_range": [
+                    59,
+                    59
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 107,
+                    "name": "The Great Gubal Library",
+                    "level": 59,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Launcher.png",
+        "title": "Launcher",
+        "number": "68",
+        "rank": "★★",
+        "type": "Open World <br> Dungeon",
+        "min_lvl": "60",
+        "world_mob_l": "68",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 120,
+                "name": "Armored Weapon",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 108,
+                    "name": "Baelsar's Wall",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Perpetual Ray.png",
+        "title": "Perpetual Ray",
+        "number": "69",
+        "rank": "★★★★",
+        "type": "Raid",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 121,
+                "name": "The Manipulator",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 109,
+                    "name": "Alexander - The Burden of the Father and Alexander - The Burden of the Father (Savage)",
+                    "level": 60,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Cactguard.png",
+        "title": "Cactguard",
+        "number": "70",
+        "rank": "★",
+        "type": "Dungeon",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 122,
+                "name": "Sabotender Guardia",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 110,
+                    "name": "The Sunken Temple of Qarn (Hard)",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Revenge Blast.png",
+        "title": "Revenge Blast",
+        "number": "71",
+        "rank": "★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "50",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 123,
+                "name": "Whalaqee Revenge Blast Totem",
+                "lvl_range": [
+                    1,
+                    50
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 111,
+                    "name": "Learn 50 Blue Magic Spells",
+                    "level": 50,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Angel Whisper.png",
+        "title": "Angel Whisper",
+        "number": "72",
+        "rank": "★★★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 124,
+                "name": "Whalaqee Angel Whisper Totem",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 112,
+                    "name": "Clear 30 Stages in The Masked Carnivale",
+                    "level": 60,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Exuviation.png",
+        "title": "Exuviation",
+        "number": "73",
+        "rank": "★★",
+        "type": "Open World <br> Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "57",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 125,
+                "name": "Wamoura",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 113,
+                    "name": "The Lost City of Amdapor",
+                    "level": 50,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Reflux.png",
+        "title": "Reflux",
+        "number": "74",
+        "rank": "★★★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "56",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 126,
+                "name": "Cloud Wyvern",
+                "lvl_range": [
+                    56,
+                    56
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 114,
+                    "name": "The Churning Mists (x24,y29)",
+                    "level": 56,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Devour.png",
+        "title": "Devour",
+        "number": "75",
+        "rank": "★",
+        "type": "Open World <br> Dungeon <br> Raid",
+        "min_lvl": "50",
+        "world_mob_l": "70",
+        "duty_lvl": "50",
+        "acquire": [
+            {
+                "id": 127,
+                "name": "Rafflesia",
+                "lvl_range": [
+                    50,
+                    50
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 115,
+                    "name": "The Second Coil of Bahamut - Turn 1",
+                    "level": 56,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Condensed Libra.png",
+        "title": "Condensed Libra",
+        "number": "76",
+        "rank": "★★★",
+        "type": "Dungeon or Masked Carnivale",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 128,
+                "name": "Mechanoscribe",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 116,
+                    "name": "The Great Gubal Library (Hard)",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Aetherial Mimicry.png",
+        "title": "Aetheric Mimicry",
+        "number": "77",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 129,
+                "name": "Ghrah Luminary",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 117,
+                    "name": "Pharos Sirius (Hard)",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Surpanakha.png",
+        "title": "Surpanakha",
+        "number": "78",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "53",
+        "world_mob_l": "~",
+        "duty_lvl": "53",
+        "acquire": [
+            {
+                "id": 130,
+                "name": "Ravana",
+                "lvl_range": [
+                    53,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 118,
+                    "name": "Thok ast Thok (Hard) and Thok ast Thok (Extreme)",
+                    "level": 60,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Quasar.png",
+        "title": "Quasar",
+        "number": "79",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 131,
+                "name": "Sophia",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 119,
+                    "name": "TContainment Bay P1T6",
+                    "level": 60,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "J Kick.png",
+        "title": "J Kick",
+        "number": "80",
+        "rank": "★★★★★",
+        "type": "Raid",
+        "min_lvl": "60",
+        "world_mob_l": "~",
+        "duty_lvl": "60",
+        "acquire": [
+            {
+                "id": 132,
+                "name": "Brute Justice",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 120,
+                    "name": "Alexander - The Burden of the Son",
+                    "level": 60,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Triple Trident.png",
+        "title": "Triple Trident",
+        "number": "81",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "64",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 133,
+                "name": "Ebisu Catfish",
+                "lvl_range": [
+                    67,
+                    67
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 121,
+                    "name": "Yanxia (x28,y6)",
+                    "level": 67,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Tingle.png",
+        "title": "Tingle",
+        "number": "82",
+        "rank": "★★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "64",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 134,
+                "name": "Ebisu Catfish",
+                "lvl_range": [
+                    67,
+                    67
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 122,
+                    "name": "Yanxia (x28,y6)",
+                    "level": 67,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Tatami-gaeshi.png",
+        "title": "Tatami-gaeshi",
+        "number": "83",
+        "rank": "★★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 135,
+                "name": "Dojun-maru",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 123,
+                    "name": "Kugane Castle",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Cold Fog.png",
+        "title": "Cold Fog",
+        "number": "84",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 136,
+                "name": "Mist Dragon",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 124,
+                    "name": "The Burn",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Stotram.png",
+        "title": "Stotram",
+        "number": "85",
+        "rank": "★★",
+        "type": "Trial",
+        "min_lvl": "67",
+        "world_mob_l": "~",
+        "duty_lvl": "67",
+        "acquire": [
+            {
+                "id": 137,
+                "name": "Lakshmi",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 125,
+                    "name": "Emanation",
+                    "level": 70,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Saintly Beam.png",
+        "title": "Saintly Beam",
+        "number": "86",
+        "rank": "★★",
+        "type": "Raid",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 138,
+                "name": "Phantom Train",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 126,
+                    "name": "Sigmascape V1.0",
+                    "level": 70,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Feculent Flood Spell.png",
+        "title": "Feculent Flood",
+        "number": "87",
+        "rank": "★",
+        "type": "Dungeon <br> Open World",
+        "min_lvl": "70",
+        "world_mob_l": "80",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 139,
+                "name": "Tokkapchi",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 127,
+                    "name": "Saint Mocianne's Arboretum (Hard)",
+                    "level": 60,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Angel's Snack.png",
+        "title": "Angel's Snack",
+        "number": "88",
+        "rank": "★★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 140,
+                "name": "Whalaqee Totem",
+                "lvl_range": [
+                    60,
+                    60
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 128,
+                    "name": "Reach Blue Mage level 70",
+                    "level": 60,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Chelonian Gate.png",
+        "title": "Chelonian Gate",
+        "number": "89",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 141,
+                "name": "Genbu",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 129,
+                    "name": "Hell's Lid",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "The Rose of Destruction.png",
+        "title": "The Rose of Destruction",
+        "number": "90",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 142,
+                "name": "Ivon Coeurlfist",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 130,
+                    "name": "Temple of the Fist",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Basic Instinct blu.png",
+        "title": "Basic Instinct",
+        "number": "91",
+        "rank": "★★",
+        "type": "Open World or Dungeon",
+        "min_lvl": "1",
+        "world_mob_l": "24",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 143,
+                "name": "Coeurl Smriti",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 131,
+                    "name": "Temple of the Fist",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Ultravibration.png",
+        "title": "Ultravibration",
+        "number": "92",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "68",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 144,
+                "name": "Kongamato",
+                "lvl_range": [
+                    68,
+                    68
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 132,
+                    "name": "The Peaks (x11,y25)",
+                    "level": 68,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Blaze.png",
+        "title": "Blaze",
+        "number": "93",
+        "rank": "★★",
+        "type": "Raid",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 145,
+                "name": "Alte Roite",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 133,
+                    "name": "Deltascape V1.0",
+                    "level": 70,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Mustard Bomb.png",
+        "title": "Mustard Bomb",
+        "number": "94",
+        "rank": "★★★★",
+        "type": "Raid",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 146,
+                "name": "Omega",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 134,
+                    "name": "Alphascape V3.0",
+                    "level": 70,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Dragon Force.png",
+        "title": "Dragon Force",
+        "number": "95",
+        "rank": "★★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 147,
+                "name": "Whalaqee Totem",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 135,
+                    "name": "Learn 100 Blue Magic Spells",
+                    "level": 70,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Aetherial Spark.png",
+        "title": "Aetherial Spark",
+        "number": "96",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "69",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 148,
+                "name": "Salt Dhruva",
+                "lvl_range": [
+                    69,
+                    69
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 136,
+                    "name": "The Lochs (x22,y22)",
+                    "level": 70,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Hydro Pull.png",
+        "title": "Hydro Pull",
+        "number": "97",
+        "rank": "★★★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 149,
+                "name": "Kelpie",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 137,
+                    "name": "Drowned City of Skalla",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Malediction of Water.png",
+        "title": "Malediction of Water",
+        "number": "98",
+        "rank": "★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 150,
+                "name": "Sai Taisui",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 138,
+                    "name": "The Swallow's Compass",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Choco Meteor blu.png",
+        "title": "Choco Meteor",
+        "number": "99",
+        "rank": "★",
+        "type": "Open World",
+        "min_lvl": "1",
+        "world_mob_l": "53",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 151,
+                "name": "Courser Chocobo",
+                "lvl_range": [
+                    53,
+                    53
+                ],
+                "type": "normal",
+                "add_info": [],
+                "location": {
+                    "id": 139,
+                    "name": "The Dravanian Forelands (x37.5, y23.7)",
+                    "level": 53,
+                    "type": "openWorld"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Matra Magic.png",
+        "title": "Matra Magic",
+        "number": "100",
+        "rank": "★★★",
+        "type": "Whalaqee Totem",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "~",
+        "acquire": [
+            {
+                "id": 152,
+                "name": "Whalaqee Matra Magic Totem",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "whalaqee",
+                "add_info": [],
+                "location": {
+                    "id": 140,
+                    "name": "Learn 100 Blue Magic Spells",
+                    "level": 53,
+                    "type": "whalaqee"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Peripheral Synthesis.png",
+        "title": "Peripheral Synthesis",
+        "number": "101",
+        "rank": "★★★★",
+        "type": "Raid",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 153,
+                "name": "Omega",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 141,
+                    "name": "Alphascape V3.0",
+                    "level": 70,
+                    "type": "raid"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Both Ends.png",
+        "title": "Both Ends",
+        "number": "102",
+        "rank": "★★★★★",
+        "type": "Dungeon",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 154,
+                "name": "Qitian Dasheng",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 142,
+                    "name": "The Swallow's Compass",
+                    "level": 70,
+                    "type": "dungeon"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Phantom Flurry.png",
+        "title": "Phantom Flurry",
+        "number": "103",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 155,
+                "name": "Suzaku",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 143,
+                    "name": "Hells' Kier",
+                    "level": 70,
+                    "type": "trial"
+                }
+            }
+        ]
+    },
+    {
+        "img_name": "Nightbloom.png",
+        "title": "Nightbloom",
+        "number": "104",
+        "rank": "★★★★★",
+        "type": "Trial",
+        "min_lvl": "70",
+        "world_mob_l": "~",
+        "duty_lvl": "70",
+        "acquire": [
+            {
+                "id": 156,
+                "name": "Tsukuyomi",
+                "lvl_range": [
+                    70,
+                    70
+                ],
+                "type": "boss",
+                "add_info": [],
+                "location": {
+                    "id": 144,
+                    "name": "Castrum Fluminis",
+                    "level": 70,
+                    "type": "trial"
+                }
+            }
+        ]
+    }
+]

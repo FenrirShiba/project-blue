@@ -16,7 +16,6 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
     static func instantiate() -> SkillSheetController {
         return SkillSheetController()
     }
-    
     // View Code Properties
     private lazy var verticalStack: UIStackView = {
         let element = UIStackView()
@@ -157,16 +156,6 @@ final class SkillSheetController: UIViewController, ViewCodeConfiguration {
         element.tintColor = .systemBlue
         return element
     }()
-    
-//    private lazy var closeButton: UIBarButtonItem = {
-//        let element = UIBarButtonItem(systemItem: .close,
-//                                      primaryAction: #selector(addTapped),
-//                                      menu: nil)
-//        element.translatesAutoresizingMaskIntoConstraints = false
-//        let icon = UIImage(systemName: "x.circle.fill")
-//        element.backgroundColor = .systemBlue
-//        return element
-//    }()
     
     // MARK: - View lifecycle
     override func loadView() {
